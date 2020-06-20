@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget{
         '/second':(context)=>jobdescription(),
         '/third':(context)=>companydetails(),
       },
-      title:'recr  uiter',
+      title:'recruiter',
 
 
       debugShowCheckedModeBanner: false,
