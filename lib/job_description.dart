@@ -43,7 +43,7 @@ class _jobdescriptionstate extends State<jobdescription>{
                         fontFamily: 'Montserrat',
                         color: Colors.white,
                         fontSize: 25.0)),
-                SizedBox(width:100.0),
+                SizedBox(width:90.0),
                
                 ClipOval(
   child: Material(
