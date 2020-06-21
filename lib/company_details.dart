@@ -50,11 +50,137 @@ class _companydetailsstate extends State<companydetails>{
           ),
           SizedBox(height: 40.0),
           Container(
-            height: MediaQuery.of(context).size.height - 185.0,
+            height: 2000,
+            //height: MediaQuery.of(context).size.height - 185.0,
             decoration: BoxDecoration(
               color: Colors.white,
               borderRadius: BorderRadius.only(topLeft: Radius.circular(75.0)),
             ),
+            child: Padding(
+               padding: EdgeInsets.only(top:50,left:20,right: 20),
+               child: Column(
+                 children:<Widget>[
+Container(
+   
+    child: Text(
+                      'Name Of My Company',
+                      style: TextStyle(color: Colors.black, fontSize: 15.0,fontWeight: FontWeight.bold,),
+                    ),
+),
+ Container(
+height: 80,
+  margin: const EdgeInsets.only(right: 10, left: 10),
+  child:  TextField( 
+    maxLines: 1,
+    decoration:  InputDecoration(
+      hintText: 'XYZ',
+      border: OutlineInputBorder(
+                         borderRadius:BorderRadius.circular(10),
+                       )
+      ),
+  )
+),
+
+Container(
+   
+    child: Text(
+                      'Contact Person/Recruiter Name',
+                      style: TextStyle(color: Colors.black, fontSize: 15.0,fontWeight: FontWeight.bold),
+                    ),
+),
+ Container(
+height: 80,
+  margin: const EdgeInsets.only(right: 10, left: 10),
+  child:  TextField( 
+    maxLines: 1,
+    decoration:  InputDecoration(
+      hintText: 'Ram',
+      border: OutlineInputBorder(
+                         borderRadius:BorderRadius.circular(10),
+                       )
+      ),
+  )
+),
+
+Container(
+   
+    child: Text(
+                      'Email Id',
+                      style: TextStyle(color: Colors.black, fontSize: 15.0,fontWeight: FontWeight.bold),
+                    ),
+),
+ Container(
+height: 80,
+  margin: const EdgeInsets.only(right: 10, left: 10),
+  child:  TextField( 
+    maxLines: 1,
+    decoration:  InputDecoration(
+      hintText: 'xyz@xx.xx',
+      border: OutlineInputBorder(
+                         borderRadius:BorderRadius.circular(10),
+                       )
+      ),
+  )
+),
+
+Container(
+   
+    child: Text(
+                      'Phone Number',
+                      style: TextStyle(color: Colors.black, fontSize: 15.0,fontWeight: FontWeight.bold),
+                    ),
+),
+ Container(
+height: 80,
+  margin: const EdgeInsets.only(right: 10, left: 10),
+  child:  TextField( 
+    maxLines: 1,
+    decoration:  InputDecoration(
+      hintText: '98xxxxxxxx',
+      border: OutlineInputBorder(
+                         borderRadius:BorderRadius.circular(10),
+                       )
+      ),
+  )
+),
+
+Container(
+   
+    child: Text(
+                      'My Company Address',
+                      style: TextStyle(color: Colors.black, fontSize: 15.0,fontWeight: FontWeight.bold),
+                    ),
+),
+ Container(
+height: 80,
+  margin: const EdgeInsets.only(right: 10, left: 10),
+  child:  TextField( 
+    maxLines: 3,
+    decoration:  InputDecoration(
+      hintText: '',
+      border: OutlineInputBorder(
+                         borderRadius:BorderRadius.circular(10),
+                       )
+      ),
+  )
+),
+
+ Container(
+   
+                      padding: const EdgeInsets.only(left: 20.0, top: 20.0),
+                      
+                      child: RaisedButton(
+                       onPressed: null,
+                        child: Text('Submit'),
+                    
+                      
+                      )
+                      ),
+                   
+                 ]
+               )
+            )
+
             
           )
         ],
