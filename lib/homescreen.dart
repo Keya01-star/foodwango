@@ -88,7 +88,12 @@ class _homescreenstate extends State<homescreen>{
                      decoration: InputDecoration(
                        labelText: 'I want to hire a',
                        border: OutlineInputBorder(
+                          borderRadius:BorderRadius.circular(10),
+                       ),
+                       focusedBorder: OutlineInputBorder(
+                         borderSide: const BorderSide(color:Color(0xFF21BFBD),width: 2.0),
                          borderRadius:BorderRadius.circular(10),
+                         
                        )
                      ),
                    )

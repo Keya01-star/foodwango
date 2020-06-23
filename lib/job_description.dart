@@ -266,8 +266,13 @@ height: 120,
     decoration:  InputDecoration(
       hintText: 'Responsible for billing and Invoicing, Maintaining Balance Sheet,Accounts,Bank Statements.',
       border: OutlineInputBorder(
-                         borderRadius:BorderRadius.circular(10),
-                       )
+            borderRadius:BorderRadius.circular(10),
+        ),
+      focusedBorder: OutlineInputBorder(
+                        borderSide: const BorderSide(color:Color(0xFF21BFBD),width: 2.0),
+                        borderRadius:BorderRadius.circular(10),
+                       ),
+        
       ),
   )
 ),
@@ -288,7 +293,11 @@ Container(
       hintText: '9:30am - 6:30pm | Monday to Saturday',
       border: OutlineInputBorder(
                          borderRadius:BorderRadius.circular(10),
-                       )
+                       ),
+      focusedBorder: OutlineInputBorder(
+        borderSide: const BorderSide(color:Color(0xFF21BFBD),width: 2.0),
+                        borderRadius:BorderRadius.circular(10),
+      )
       ),
   )
 ),
@@ -310,7 +319,11 @@ Container(
       hintText: '11am - 4pm | Monday to Saturday',
       border: OutlineInputBorder(
                          borderRadius:BorderRadius.circular(10),
-                       )
+                       ),
+                       focusedBorder: OutlineInputBorder(
+        borderSide: const BorderSide(color:Color(0xFF21BFBD),width: 2.0),
+                        borderRadius:BorderRadius.circular(10),
+      ),
       ),
   )
 ),

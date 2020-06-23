@@ -76,7 +76,11 @@ height: 80,
       hintText: 'XYZ',
       border: OutlineInputBorder(
                          borderRadius:BorderRadius.circular(10),
-                       )
+                       ),
+      focusedBorder: OutlineInputBorder(
+        borderSide: const BorderSide(color:Color(0xFF21BFBD),width: 2.0),
+                        borderRadius:BorderRadius.circular(10),
+      ),
       ),
   )
 ),
@@ -97,7 +101,11 @@ height: 80,
       hintText: 'Ram',
       border: OutlineInputBorder(
                          borderRadius:BorderRadius.circular(10),
-                       )
+                       ),
+      focusedBorder: OutlineInputBorder(
+        borderSide: const BorderSide(color:Color(0xFF21BFBD),width: 2.0),
+                        borderRadius:BorderRadius.circular(10),
+      ),
       ),
   )
 ),
@@ -118,7 +126,11 @@ height: 80,
       hintText: 'xyz@xx.xx',
       border: OutlineInputBorder(
                          borderRadius:BorderRadius.circular(10),
-                       )
+                       ),
+        focusedBorder: OutlineInputBorder(
+        borderSide: const BorderSide(color:Color(0xFF21BFBD),width: 2.0),
+                        borderRadius:BorderRadius.circular(10),
+      ),
       ),
   )
 ),
@@ -139,7 +151,11 @@ height: 80,
       hintText: '98xxxxxxxx',
       border: OutlineInputBorder(
                          borderRadius:BorderRadius.circular(10),
-                       )
+                       ),
+                       focusedBorder: OutlineInputBorder(
+        borderSide: const BorderSide(color:Color(0xFF21BFBD),width: 2.0),
+                        borderRadius:BorderRadius.circular(10),
+      ),
       ),
   )
 ),
@@ -160,7 +176,11 @@ height: 80,
       hintText: '',
       border: OutlineInputBorder(
                          borderRadius:BorderRadius.circular(10),
-                       )
+                       ),
+                       focusedBorder: OutlineInputBorder(
+        borderSide: const BorderSide(color:Color(0xFF21BFBD),width: 2.0),
+                        borderRadius:BorderRadius.circular(10),
+      )
       ),
   )
 ),
@@ -170,9 +190,11 @@ height: 80,
                       padding: const EdgeInsets.only(left: 20.0, top: 20.0),
                       
                       child: RaisedButton(
-                       onPressed: null,
+                       onPressed: (){
+
+                       },
                         child: Text('Submit'),
-                    
+                        color: Color(0xFF21BFBD),
                       
                       )
                       ),
