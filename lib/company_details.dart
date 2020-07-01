@@ -147,6 +147,7 @@ height: 80,
   margin: const EdgeInsets.only(right: 10, left: 10),
   child:  TextField( 
     maxLines: 1,
+       keyboardType: TextInputType.number,
     decoration:  InputDecoration(
       hintText: '98xxxxxxxx',
       border: OutlineInputBorder(
